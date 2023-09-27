@@ -348,10 +348,17 @@
      Enter menu choice: 6
      ```
 
-1. Run the unit testing program to ensure that your program runs as expected.
+1. Run the unit testing program to ensure that your program runs as expected. Just run the commands which are mentioned below for each test case.
 
     ```
-    ./test.sh
+    python3 -m unittest -v test1
+    python3 -m unittest -v test2
+    python3 -m unittest -v test3
+    .
+    .
+    .
+    python3 -m unittest -v test9
+    
     ```
        
     The unit testing will output the results of a series of tests using specific input and expected output.  Any error will provide information on where the expected output is different from the actual output.  You will need to edit your source code to fix the error and run `./test.sh` repeatedly until it passes all the test.
@@ -389,6 +396,8 @@ test.txt
 |4|unit test passes Test07_SortContacts|
 |4|unit test passes Test08_FindContact|
 |4|unit test passes Test09_FindContact|
+
+Note: Maximum 2 commits allowed, marks can be deducted if you commit more than 2 times.
 
 
 
