@@ -19,4 +19,4 @@ class Test09_FindContact(unittest.TestCase):
 if __name__ == '__main__':
     with open('test.txt', "w") as f:
         runner = unittest.TextTestRunner(f)
-        unittest.main(testRunner=runner
+        unittest.main(testRunner=runner)
